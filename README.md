@@ -1,0 +1,3 @@
+# Análise de Remuneração de Servidores do GDF a partir de dados abertos
+
+## Este projeto tem como finalidade a conclusão do curso de MBA em Business Analytics e visa estruturar um pipeline para a coleta, transformação, armazenamento, gerenciamento, tratamento e exibição dos dados, transformando os arquivos crus (originalmente em formato CSV) em informações de fácil compreensão que possam, eventualmente, possibilitar a geração de insights capazes de contribuir para uma melhor gestão dos recursos públicos.
