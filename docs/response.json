@@ -1,0 +1,621 @@
+{
+  "activityLogEntries" : [ {
+    "activityType" : "changed package",
+    "timestamp" : "2026-09-17T11:58:27Z",
+    "userId" : "93658368-da38-4f6e-8e43-ae7af47c374b"
+  }, {
+    "activityType" : "changed package",
+    "timestamp" : "2026-08-17T13:46:09Z",
+    "userId" : "93658368-da38-4f6e-8e43-ae7af47c374b"
+  }, {
+    "activityType" : "changed package",
+    "timestamp" : "2026-07-02T16:35:21Z",
+    "userId" : "1cd41678-46cf-4bbc-b567-b71bb3668be6"
+  }, {
+    "activityType" : "changed package",
+    "timestamp" : "2026-06-22T11:21:26Z",
+    "userId" : "1cd41678-46cf-4bbc-b567-b71bb3668be6"
+  }, {
+    "activityType" : "changed package",
+    "timestamp" : "2026-06-22T11:20:52Z",
+    "userId" : "1cd41678-46cf-4bbc-b567-b71bb3668be6"
+  }, {
+    "activityType" : "changed package",
+    "timestamp" : "2026-06-22T11:20:37Z",
+    "userId" : "1cd41678-46cf-4bbc-b567-b71bb3668be6"
+  }, {
+    "activityType" : "changed package",
+    "timestamp" : "2026-06-22T11:20:22Z",
+    "userId" : "1cd41678-46cf-4bbc-b567-b71bb3668be6"
+  }, {
+    "activityType" : "changed package",
+    "timestamp" : "2026-06-22T11:19:58Z",
+    "userId" : "1cd41678-46cf-4bbc-b567-b71bb3668be6"
+  }, {
+    "activityType" : "changed package",
+    "timestamp" : "2026-06-22T11:12:44Z",
+    "userId" : "1cd41678-46cf-4bbc-b567-b71bb3668be6"
+  }, {
+    "activityType" : "changed package",
+    "timestamp" : "2026-06-22T11:12:00Z",
+    "userId" : "1cd41678-46cf-4bbc-b567-b71bb3668be6"
+  }, {
+    "activityType" : "changed package",
+    "timestamp" : "2026-06-22T11:04:46Z",
+    "userId" : "1cd41678-46cf-4bbc-b567-b71bb3668be6"
+  }, {
+    "activityType" : "changed package",
+    "timestamp" : "2026-04-27T11:53:51Z",
+    "userId" : "1cd41678-46cf-4bbc-b567-b71bb3668be6"
+  }, {
+    "activityType" : "changed package",
+    "timestamp" : "2026-04-27T11:53:10Z",
+    "userId" : "1cd41678-46cf-4bbc-b567-b71bb3668be6"
+  }, {
+    "activityType" : "changed package",
+    "timestamp" : "2026-04-27T11:52:02Z",
+    "userId" : "1cd41678-46cf-4bbc-b567-b71bb3668be6"
+  }, {
+    "activityType" : "changed package",
+    "timestamp" : "2026-04-27T11:49:33Z",
+    "userId" : "1cd41678-46cf-4bbc-b567-b71bb3668be6"
+  }, {
+    "activityType" : "changed package",
+    "timestamp" : "2026-04-27T11:47:34Z",
+    "userId" : "1cd41678-46cf-4bbc-b567-b71bb3668be6"
+  }, {
+    "activityType" : "changed package",
+    "timestamp" : "2026-04-27T11:46:26Z",
+    "userId" : "1cd41678-46cf-4bbc-b567-b71bb3668be6"
+  }, {
+    "activityType" : "changed package",
+    "timestamp" : "2026-04-27T11:45:43Z",
+    "userId" : "1cd41678-46cf-4bbc-b567-b71bb3668be6"
+  }, {
+    "activityType" : "changed package",
+    "timestamp" : "2026-04-27T11:45:39Z",
+    "userId" : "1cd41678-46cf-4bbc-b567-b71bb3668be6"
+  }, {
+    "activityType" : "changed package",
+    "timestamp" : "2026-04-27T11:41:47Z",
+    "userId" : "1cd41678-46cf-4bbc-b567-b71bb3668be6"
+  } ],
+  "createdAt" : "2022-07-19T17:39:42Z",
+  "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\n\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.\r\n\r\n**Por questões técnicas, caso deseje o detalhamento dos dados, este pode ser obtido por meio do Portal da Transparência do Distrito Federal.**\r\n\r\n*Atenção: Foram apuradas inconsistências no processamento dos arquivos  dos meses de Janeiro, Agosto, Setembro, Outubro e Novembro de 2022. Portanto, as informações relativas a 2022 e 2023 foram atualizadas em 16 de outubro de 2023.*",
+  "extras" : [ {
+    "key" : "Periodicidade Atualização",
+    "value" : "Mensal"
+  } ],
+  "formats" : [ "HTML", "CSV" ],
+  "id" : "462126f8-8a61-4cec-91a2-38615b7f70f6",
+  "lastModified" : "2026-09-17T14:58:26Z",
+  "license" : {
+    "id" : "cc-by",
+    "title" : "Creative Commons Atribuição"
+  },
+  "organization" : {
+    "description" : "Secretaria de Estado de Economia do DF.",
+    "slug" : "sef-secretaria-de-estado-de-fazenda",
+    "title" : "ECONOMIA - Secretaria de Estado de Economia"
+  },
+  "resourceCount" : 56,
+  "resourceDetails" : [ {
+    "createdAt" : "2022-07-19T14:52:41Z",
+    "description" : "Este dicionário de dados contém a relação dos campos, os tipos de dados e respectivas descrições relativas aos recursos do conjunto de dados \"[Portal da Transparência] Remuneração dos Servidores\".",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/0514402e-cd29-440b-83e5-f97787dd1ad3/download",
+    "format" : "HTML",
+    "id" : "0514402e-cd29-440b-83e5-f97787dd1ad3",
+    "isExternal" : false,
+    "lastModified" : "2022-07-19T17:52:41Z",
+    "name" : "Dicionário de Dados - [Portal da Transparência] Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2023-03-13T13:23:35Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.\r\n*Arquivo reprocessado em 16 de outubro de 2023.*",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/0c2967d5-674b-4498-b4f4-854e6666a318/download",
+    "format" : "CSV",
+    "id" : "0c2967d5-674b-4498-b4f4-854e6666a318",
+    "isExternal" : false,
+    "lastModified" : "2023-10-16T18:19:35Z",
+    "name" : "2022-01 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2023-03-13T13:24:20Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.\r\n*Arquivo reprocessado em 16 de outubro de 2023.*",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/0c76bc13-d492-47c2-a6fa-e2f9c4d984bd/download",
+    "format" : "CSV",
+    "id" : "0c76bc13-d492-47c2-a6fa-e2f9c4d984bd",
+    "isExternal" : false,
+    "lastModified" : "2023-10-16T18:20:01Z",
+    "name" : "2022-02 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2023-03-13T13:24:59Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.\r\n*Arquivo reprocessado em 16 de outubro de 2023.*",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/771cd518-5226-4abb-bcb6-54084cc84d5f/download",
+    "format" : "CSV",
+    "id" : "771cd518-5226-4abb-bcb6-54084cc84d5f",
+    "isExternal" : false,
+    "lastModified" : "2023-10-16T18:20:31Z",
+    "name" : "2022-03 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2023-03-13T13:25:54Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.\r\n*Arquivo reprocessado em 16 de outubro de 2023.*",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/6d4c28a5-eaff-47b3-8dda-88490cfdf6cb/download",
+    "format" : "CSV",
+    "id" : "6d4c28a5-eaff-47b3-8dda-88490cfdf6cb",
+    "isExternal" : false,
+    "lastModified" : "2023-10-16T18:20:48Z",
+    "name" : "2022-04 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2022-07-19T14:43:38Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.\r\n*Arquivo reprocessado em 16 de outubro de 2023.*",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/66d074b3-c517-44b3-b01b-2dd988de96f3/download",
+    "format" : "CSV",
+    "id" : "66d074b3-c517-44b3-b01b-2dd988de96f3",
+    "isExternal" : false,
+    "lastModified" : "2023-10-16T18:21:55Z",
+    "name" : "2022-05 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2022-08-23T15:32:11Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.\r\n*Arquivo reprocessado em 16 de outubro de 2023.*",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/0afb1105-d008-41b1-a2db-d0441e2444ed/download",
+    "format" : "CSV",
+    "id" : "0afb1105-d008-41b1-a2db-d0441e2444ed",
+    "isExternal" : false,
+    "lastModified" : "2023-10-16T18:22:35Z",
+    "name" : "2022-06 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2022-09-20T16:56:30Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.\r\n*Arquivo reprocessado em 16 de outubro de 2023.*",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/e65ff8bb-806d-4d47-8976-1aeb8a830f90/download",
+    "format" : "CSV",
+    "id" : "e65ff8bb-806d-4d47-8976-1aeb8a830f90",
+    "isExternal" : false,
+    "lastModified" : "2023-10-16T18:23:15Z",
+    "name" : "2022-07 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2022-11-17T16:26:45Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.\r\n*Arquivo reprocessado em 16 de outubro de 2023.*",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/228e4a9d-f235-4e08-9756-49a3adb6443d/download",
+    "format" : "CSV",
+    "id" : "228e4a9d-f235-4e08-9756-49a3adb6443d",
+    "isExternal" : false,
+    "lastModified" : "2023-10-16T18:23:36Z",
+    "name" : "2022-08 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2022-11-17T16:28:19Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.\r\n*Arquivo reprocessado em 16 de outubro de 2023.*",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/b05c676b-9100-4da0-abfd-018d706f02c6/download",
+    "format" : "CSV",
+    "id" : "b05c676b-9100-4da0-abfd-018d706f02c6",
+    "isExternal" : false,
+    "lastModified" : "2023-10-16T18:24:04Z",
+    "name" : "2022-09 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2022-12-27T15:18:46Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.\r\n*Arquivo reprocessado em 16 de outubro de 2023.*",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/ef439710-b6fa-44d8-97f3-74d012986c6d/download",
+    "format" : "CSV",
+    "id" : "ef439710-b6fa-44d8-97f3-74d012986c6d",
+    "isExternal" : false,
+    "lastModified" : "2023-10-16T18:25:05Z",
+    "name" : "2022-10 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2022-12-27T15:19:25Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.\r\n*Arquivo reprocessado em 16 de outubro de 2023.*",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/2a2413a5-1af5-4982-b071-108434ade545/download",
+    "format" : "CSV",
+    "id" : "2a2413a5-1af5-4982-b071-108434ade545",
+    "isExternal" : false,
+    "lastModified" : "2023-10-16T18:25:10Z",
+    "name" : "2022-11 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2023-01-31T23:14:42Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.\r\n*Arquivo reprocessado em 16 de outubro de 2023.*",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/741f35d7-b6d4-4685-943a-7f178fd54f32/download",
+    "format" : "CSV",
+    "id" : "741f35d7-b6d4-4685-943a-7f178fd54f32",
+    "isExternal" : false,
+    "lastModified" : "2023-10-16T18:26:13Z",
+    "name" : "2022-12 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2023-03-13T13:27:25Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.\r\n*Arquivo reprocessado em 16 de outubro de 2023.*",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/675c786d-7c0b-4f06-b5ff-e9b516cc7a86/download",
+    "format" : "CSV",
+    "id" : "675c786d-7c0b-4f06-b5ff-e9b516cc7a86",
+    "isExternal" : false,
+    "lastModified" : "2023-10-16T18:26:22Z",
+    "name" : "2023-01 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2023-05-10T10:48:49Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.\r\n*Arquivo reprocessado em 16 de outubro de 2023.*",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/061f2927-0403-4d33-b28d-5bbf677401f7/download",
+    "format" : "CSV",
+    "id" : "061f2927-0403-4d33-b28d-5bbf677401f7",
+    "isExternal" : false,
+    "lastModified" : "2023-10-16T18:27:21Z",
+    "name" : "2023-02 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2023-05-10T10:49:55Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.\r\n*Arquivo reprocessado em 16 de outubro de 2023.*",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/453748a5-a625-4aed-8ce9-a4af954c1b60/download",
+    "format" : "CSV",
+    "id" : "453748a5-a625-4aed-8ce9-a4af954c1b60",
+    "isExternal" : false,
+    "lastModified" : "2023-10-16T18:27:19Z",
+    "name" : "2023-03 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2023-07-03T09:41:47Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.\r\n*Arquivo reprocessado em 16 de outubro de 2023.*",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/16b7b52a-40df-4cb4-a8b2-3f26314c2c8e/download",
+    "format" : "CSV",
+    "id" : "16b7b52a-40df-4cb4-a8b2-3f26314c2c8e",
+    "isExternal" : false,
+    "lastModified" : "2023-10-16T18:27:15Z",
+    "name" : "2023-04 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2023-10-02T14:48:49Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.\r\n*Arquivo reprocessado em 16 de outubro de 2023.*",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/e29eb72c-4313-4f95-96e2-4e8b0d5b442b/download",
+    "format" : "CSV",
+    "id" : "e29eb72c-4313-4f95-96e2-4e8b0d5b442b",
+    "isExternal" : false,
+    "lastModified" : "2023-10-16T18:27:59Z",
+    "name" : "2023-05 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2023-10-02T14:50:41Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.\r\n*Arquivo reprocessado em 16 de outubro de 2023.*",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/f74d54fc-9dd6-46bf-a66e-a891f1c7c996/download",
+    "format" : "CSV",
+    "id" : "f74d54fc-9dd6-46bf-a66e-a891f1c7c996",
+    "isExternal" : false,
+    "lastModified" : "2023-10-16T18:27:38Z",
+    "name" : "2023-06 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2023-10-02T14:51:53Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.\r\n*Arquivo reprocessado em 16 de outubro de 2023.*",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/8d8a20dc-2602-44a7-9177-c820c12a7b80/download",
+    "format" : "CSV",
+    "id" : "8d8a20dc-2602-44a7-9177-c820c12a7b80",
+    "isExternal" : false,
+    "lastModified" : "2023-10-16T18:28:03Z",
+    "name" : "2023-07 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2023-10-16T16:28:55Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/7b32afd1-a2bb-480f-a0c4-3a113b8b5c1e/download",
+    "format" : "CSV",
+    "id" : "7b32afd1-a2bb-480f-a0c4-3a113b8b5c1e",
+    "isExternal" : false,
+    "lastModified" : "2023-10-16T18:28:55Z",
+    "name" : "2023-08 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2024-01-10T19:38:01Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/27902101-bfb4-4ea4-8c02-6e1b4661b5bb/download",
+    "format" : "CSV",
+    "id" : "27902101-bfb4-4ea4-8c02-6e1b4661b5bb",
+    "isExternal" : false,
+    "lastModified" : "2024-01-10T21:38:00Z",
+    "name" : "2023-09 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2024-01-10T19:38:38Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/680736c9-4458-4018-a25b-3701f08f7871/download",
+    "format" : "CSV",
+    "id" : "680736c9-4458-4018-a25b-3701f08f7871",
+    "isExternal" : false,
+    "lastModified" : "2024-01-10T21:38:38Z",
+    "name" : "2023-10 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2024-01-10T19:39:05Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/7cad588d-7a0a-44d2-ab31-c3e635be876b/download",
+    "format" : "CSV",
+    "id" : "7cad588d-7a0a-44d2-ab31-c3e635be876b",
+    "isExternal" : false,
+    "lastModified" : "2024-01-10T21:39:05Z",
+    "name" : "2023-11 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2024-06-24T15:58:34Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/5fa1b8cd-820d-4508-a747-33ce3c5821d1/download",
+    "format" : "CSV",
+    "id" : "5fa1b8cd-820d-4508-a747-33ce3c5821d1",
+    "isExternal" : false,
+    "lastModified" : "2024-06-24T18:58:34Z",
+    "name" : "2023-12 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2024-06-24T15:59:08Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/46faa5e5-67e6-49f7-bdbe-938f18d3d752/download",
+    "format" : "CSV",
+    "id" : "46faa5e5-67e6-49f7-bdbe-938f18d3d752",
+    "isExternal" : false,
+    "lastModified" : "2024-06-24T18:59:08Z",
+    "name" : "2024-01 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2024-06-24T16:00:33Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/b438bd52-87ae-4085-9814-21c69d32d3e5/download",
+    "format" : "CSV",
+    "id" : "b438bd52-87ae-4085-9814-21c69d32d3e5",
+    "isExternal" : false,
+    "lastModified" : "2024-06-24T19:00:33Z",
+    "name" : "2024-02 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2024-06-24T16:01:27Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/50ff4bc1-6940-4353-86be-30de232c8deb/download",
+    "format" : "CSV",
+    "id" : "50ff4bc1-6940-4353-86be-30de232c8deb",
+    "isExternal" : false,
+    "lastModified" : "2024-06-24T19:01:26Z",
+    "name" : "2024-03 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2024-06-24T16:02:51Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/614ba316-718c-4923-b3cf-553f3f7076ad/download",
+    "format" : "CSV",
+    "id" : "614ba316-718c-4923-b3cf-553f3f7076ad",
+    "isExternal" : false,
+    "lastModified" : "2024-06-24T19:02:51Z",
+    "name" : "2024-04 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2024-08-16T14:51:54Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/dbf8a234-3455-430e-8a50-f15fc8e4a019/download",
+    "format" : "CSV",
+    "id" : "dbf8a234-3455-430e-8a50-f15fc8e4a019",
+    "isExternal" : false,
+    "lastModified" : "2024-08-16T17:51:54Z",
+    "name" : "2024-05 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2024-08-16T14:52:35Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/a6ec6f33-f220-4224-b0bd-26990b59b4b9/download",
+    "format" : "CSV",
+    "id" : "a6ec6f33-f220-4224-b0bd-26990b59b4b9",
+    "isExternal" : false,
+    "lastModified" : "2024-08-16T17:52:35Z",
+    "name" : "2024-06 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2024-08-16T14:53:07Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/d8ed1c6d-967b-4f3f-888a-605139251370/download",
+    "format" : "CSV",
+    "id" : "d8ed1c6d-967b-4f3f-888a-605139251370",
+    "isExternal" : false,
+    "lastModified" : "2024-08-16T17:53:07Z",
+    "name" : "2024-07 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2025-01-21T16:23:57Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/f5a54f5c-f89d-457d-aeac-2567670fa474/download",
+    "format" : "CSV",
+    "id" : "f5a54f5c-f89d-457d-aeac-2567670fa474",
+    "isExternal" : false,
+    "lastModified" : "2025-01-21T18:23:57Z",
+    "name" : "2024-08 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2025-01-21T16:26:50Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/7eb0e128-3695-4987-8ed0-b32a19fd5482/download",
+    "format" : "CSV",
+    "id" : "7eb0e128-3695-4987-8ed0-b32a19fd5482",
+    "isExternal" : false,
+    "lastModified" : "2025-01-21T18:26:50Z",
+    "name" : "2024-09 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2025-01-21T16:27:42Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/1ea51264-27b5-45ae-a785-92f344531691/download",
+    "format" : "CSV",
+    "id" : "1ea51264-27b5-45ae-a785-92f344531691",
+    "isExternal" : false,
+    "lastModified" : "2025-01-21T18:27:42Z",
+    "name" : "2024-10 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2025-01-21T16:28:23Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor.\r\nOBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/a492b5f1-ed79-4429-8973-0f31d5b51fdd/download",
+    "format" : "CSV",
+    "id" : "a492b5f1-ed79-4429-8973-0f31d5b51fdd",
+    "isExternal" : false,
+    "lastModified" : "2025-01-21T18:28:22Z",
+    "name" : "2024-11 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2025-09-23T15:31:50Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/4550188a-38ef-4f50-976d-96dc1fe5fc05/download",
+    "format" : "CSV",
+    "id" : "4550188a-38ef-4f50-976d-96dc1fe5fc05",
+    "isExternal" : false,
+    "lastModified" : "2025-09-23T18:31:50Z",
+    "name" : "2024-12 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2025-09-23T15:36:51Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/01e65c79-d3fc-43cf-9cf0-fa4589cd33ba/download",
+    "format" : "CSV",
+    "id" : "01e65c79-d3fc-43cf-9cf0-fa4589cd33ba",
+    "isExternal" : false,
+    "lastModified" : "2025-09-23T18:36:51Z",
+    "name" : "2025-01 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2025-09-23T15:38:06Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/1a3ae601-9615-411c-90b6-ef676a680901/download",
+    "format" : "CSV",
+    "id" : "1a3ae601-9615-411c-90b6-ef676a680901",
+    "isExternal" : false,
+    "lastModified" : "2025-09-23T18:38:06Z",
+    "name" : "2025-02 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2025-09-23T15:39:02Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/a9f8800e-02fe-469e-b8d3-afaf249cbd9f/download",
+    "format" : "CSV",
+    "id" : "a9f8800e-02fe-469e-b8d3-afaf249cbd9f",
+    "isExternal" : false,
+    "lastModified" : "2025-09-23T18:39:02Z",
+    "name" : "2025-03 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2025-09-23T15:42:58Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/ea3d5ebf-0402-42ca-a32d-2e5bb62c9638/download",
+    "format" : "CSV",
+    "id" : "ea3d5ebf-0402-42ca-a32d-2e5bb62c9638",
+    "isExternal" : false,
+    "lastModified" : "2025-09-23T18:42:58Z",
+    "name" : "2025-04 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2025-09-23T15:44:07Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/88a03a62-1b4e-49db-ab49-135cabd09d6d/download",
+    "format" : "CSV",
+    "id" : "88a03a62-1b4e-49db-ab49-135cabd09d6d",
+    "isExternal" : false,
+    "lastModified" : "2025-09-23T18:44:07Z",
+    "name" : "2025-05 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2025-09-23T15:47:05Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/b3d19cf1-fc37-4006-88a8-5d795e3af87c/download",
+    "format" : "CSV",
+    "id" : "b3d19cf1-fc37-4006-88a8-5d795e3af87c",
+    "isExternal" : false,
+    "lastModified" : "2025-09-23T18:47:05Z",
+    "name" : "2025-06 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2025-09-23T15:48:05Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/44dc68f2-e71e-47df-af2e-684ffae531ba/download",
+    "format" : "CSV",
+    "id" : "44dc68f2-e71e-47df-af2e-684ffae531ba",
+    "isExternal" : false,
+    "lastModified" : "2025-09-23T18:48:04Z",
+    "name" : "2025-07 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2026-04-27T11:41:44Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/270f9250-6a62-443d-8f0a-7d0f092f477d/download",
+    "format" : "CSV",
+    "id" : "270f9250-6a62-443d-8f0a-7d0f092f477d",
+    "isExternal" : false,
+    "lastModified" : "2026-04-27T14:41:44Z",
+    "name" : "2025-08 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2026-04-27T11:45:38Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/c70f0b0b-1e65-4f96-990c-ee57d90e6ec0/download",
+    "format" : "CSV",
+    "id" : "c70f0b0b-1e65-4f96-990c-ee57d90e6ec0",
+    "isExternal" : false,
+    "lastModified" : "2026-04-27T14:45:37Z",
+    "name" : "2025-09 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2026-04-27T11:45:42Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/990c1334-6c62-481b-9a41-b276476abd7b/download",
+    "format" : "CSV",
+    "id" : "990c1334-6c62-481b-9a41-b276476abd7b",
+    "isExternal" : false,
+    "lastModified" : "2026-04-27T14:47:33Z",
+    "name" : "2025-10 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2026-04-27T11:46:25Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/f41e7e8f-a91e-497c-9306-23adbd20ebc1/download",
+    "format" : "CSV",
+    "id" : "f41e7e8f-a91e-497c-9306-23adbd20ebc1",
+    "isExternal" : false,
+    "lastModified" : "2026-04-27T14:49:31Z",
+    "name" : "2025-11 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2026-04-27T11:52:01Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/f48d0ffe-4ae5-4f72-b92f-dee5cb4d4001/download",
+    "format" : "CSV",
+    "id" : "f48d0ffe-4ae5-4f72-b92f-dee5cb4d4001",
+    "isExternal" : false,
+    "lastModified" : "2026-04-27T14:52:01Z",
+    "name" : "2025-12 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2026-04-27T11:53:10Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/44cb30dc-6455-42ad-9a06-43970582ca39/download",
+    "format" : "CSV",
+    "id" : "44cb30dc-6455-42ad-9a06-43970582ca39",
+    "isExternal" : false,
+    "lastModified" : "2026-04-27T14:53:09Z",
+    "name" : "2026-01 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2026-04-27T11:53:50Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/426732b2-75f9-41a6-98e9-d3cf6b9ac6f6/download",
+    "format" : "CSV",
+    "id" : "426732b2-75f9-41a6-98e9-d3cf6b9ac6f6",
+    "isExternal" : false,
+    "lastModified" : "2026-06-22T14:04:43Z",
+    "name" : "2026-02 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2026-06-22T11:11:57Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/3001bf5f-d1c5-4000-8670-190128106d4a/download",
+    "format" : "CSV",
+    "id" : "3001bf5f-d1c5-4000-8670-190128106d4a",
+    "isExternal" : false,
+    "lastModified" : "2026-06-22T14:11:56Z",
+    "name" : "2026-03 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2026-06-22T11:12:43Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/ccb69e6e-29f4-44f0-800d-e24d7670716b/download",
+    "format" : "CSV",
+    "id" : "ccb69e6e-29f4-44f0-800d-e24d7670716b",
+    "isExternal" : false,
+    "lastModified" : "2026-06-22T14:12:43Z",
+    "name" : "2026-04 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2026-07-02T16:35:20Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/39f569a6-6fb2-44a9-bfca-decc571a1cd4/download",
+    "format" : "CSV",
+    "id" : "39f569a6-6fb2-44a9-bfca-decc571a1cd4",
+    "isExternal" : false,
+    "lastModified" : "2026-07-02T19:35:20Z",
+    "name" : "2026-05 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2026-08-17T13:46:07Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/733efc78-7a61-4777-ba6e-be9a8f316c3d/download",
+    "format" : "CSV",
+    "id" : "733efc78-7a61-4777-ba6e-be9a8f316c3d",
+    "isExternal" : false,
+    "lastModified" : "2026-08-17T16:46:07Z",
+    "name" : "2026-06 - Remuneração dos Servidores"
+  }, {
+    "createdAt" : "2026-09-17T11:58:26Z",
+    "description" : "Este conjunto de dados apresenta a remuneração dos servidores do Governo, detalhada por órgão e nome do servidor. OBS: As bases de dados são encaminhadas até o final do mês subsequente ao mês de referência da consulta, para inclusão de todos os valores efetivamente pagos aos servidores.",
+    "downloadUrl" : "/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores/resources/93385b82-a45e-4bbd-ae93-7e8981e5ed9a/download",
+    "format" : "CSV",
+    "id" : "93385b82-a45e-4bbd-ae93-7e8981e5ed9a",
+    "isExternal" : false,
+    "lastModified" : "2026-09-17T14:58:26Z",
+    "name" : "2026-07 - Remuneração dos Servidores"
+  } ],
+  "slug" : "portal-da-transparencia-remuneracao-dos-servidores",
+  "tags" : [ "gdf", "remuneração", "servidores" ],
+  "themeRefs" : [ {
+    "slug" : "governo",
+    "title" : "Governo"
+  }, {
+    "slug" : "orcamento",
+    "title" : "Orçamento"
+  }, {
+    "slug" : "portal-da-transparencia-do-distrito-federal",
+    "title" : "Portal da Transparência"
+  } ],
+  "title" : "[Portal da Transparência] Remuneração dos Servidores",
+  "url" : "SIGRH (SEEC) / SIAPE (PCDF/CBMDF/PMDF) / CEB / CAESB / TERRACAP / CEASA / BRB"
+}

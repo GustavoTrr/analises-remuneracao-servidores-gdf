@@ -1,0 +1,74 @@
+x-job: &job
+  build:
+    context: .
+  environment: &job-environment
+    DATA_ROOT: ${DATA_ROOT:-/data}
+    DATASET_API_URL: ${DATASET_API_URL:-https://dados.df.gov.br/o/dados-abertos/v1.0/datasets/portal-da-transparencia-remuneracao-dos-servidores}
+    PORTAL_BASE_URL: ${PORTAL_BASE_URL:-https://dados.df.gov.br}
+    HTTP_TIMEOUT_SECONDS: ${HTTP_TIMEOUT_SECONDS:-60}
+    HTTP_MAX_RETRIES: ${HTTP_MAX_RETRIES:-3}
+    COMPETENCIA_INICIAL: ${COMPETENCIA_INICIAL:-}
+    ANOMALY_MIN_OBSERVACOES: ${ANOMALY_MIN_OBSERVACOES:-6}
+    ANOMALY_ZSCORE: ${ANOMALY_ZSCORE:-3.0}
+    ANOMALY_MIN_GRUPO: ${ANOMALY_MIN_GRUPO:-20}
+    ANOMALY_IQR_MULTIPLICADOR: ${ANOMALY_IQR_MULTIPLICADOR:-1.5}
+    POSTGRES_HOST: postgres
+    POSTGRES_PORT: "5432"
+    POSTGRES_DB: ${POSTGRES_DB:-transparencia}
+    POSTGRES_USER: ${POSTGRES_USER:-transparencia}
+    POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Configure POSTGRES_PASSWORD in .env}
+  init: true
+
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-transparencia}
+      POSTGRES_USER: ${POSTGRES_USER:-transparencia}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Configure POSTGRES_PASSWORD in .env}
+    ports:
+      - "127.0.0.1:${POSTGRES_HOST_PORT:-5432}:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./sql/init.sql:/docker-entrypoint-initdb.d/001-init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U \"$$POSTGRES_USER\" -d \"$$POSTGRES_DB\""]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+
+  collector:
+    <<: *job
+    command: ["python", "-m", "scripts.download_raw"]
+    volumes:
+      - "${DATA_HOST_PATH:-./data}:/data"
+
+  curator:
+    <<: *job
+    command: ["python", "-m", "scripts.curate"]
+    volumes:
+      - "${DATA_HOST_PATH:-./data}:/data"
+
+  loader:
+    <<: *job
+    command: ["python", "-m", "scripts.load_dw"]
+    environment:
+      <<: *job-environment
+      IDENTITY_HMAC_KEY: ${IDENTITY_HMAC_KEY:-}
+    volumes:
+      - "${DATA_HOST_PATH:-./data}:/data"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  analytics:
+    <<: *job
+    command: ["python", "-m", "scripts.analyze"]
+    volumes:
+      - "${DATA_HOST_PATH:-./data}:/data"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  postgres-data:

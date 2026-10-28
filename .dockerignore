@@ -1,0 +1,7 @@
+.env
+.git
+data/
+docs/
+tests/
+__pycache__/
+*.py[cod]
